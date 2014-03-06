@@ -1,0 +1,3 @@
+#Classes with main methods
+#Thu Mar 06 02:05:12 EST 2014
+src/test/scala/com/twitter/sample/SimpleParserSpec.scala=com.twitter.sample.SimpleParserSpec

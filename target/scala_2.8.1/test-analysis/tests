@@ -1,0 +1,3 @@
+#Tests
+#Thu Mar 06 02:05:12 EST 2014
+src/test/scala/com/twitter/sample/SimpleParserSpec.scala=<module>com.twitter.sample.SimpleParserSpec<<org.specs.Specification
