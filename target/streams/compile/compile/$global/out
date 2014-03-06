@@ -16,42 +16,17 @@
 [0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/admin/programming/scala/SimpleParser/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.3  with arguments: [0m
-[0m[[0mdebug[0m] [0m	-nowarn[0m
-[0m[[0mdebug[0m] [0m	-d[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_c32a86d7[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/classes:/home/admin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/admin/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/xsbti/interface-0.13.0.jar:/home/admin/.sbt/boot/scala-2.10.2/org.scala-sbt/sbt/0.13.0/compiler-interface-src/compiler-interface-src-0.13.0.jar:/home/admin/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.3.jar:/home/admin/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.3.jar:/home/admin/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.3.jar:/home/admin/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.4.jar[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/API.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/Analyzer.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/Command.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/Compat.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/CompilerInterface.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/ConsoleInterface.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/DelegatingReporter.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/ExtractAPI.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/LocateClassFile.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/Log.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/Message.scala[0m
-[0m[[0mdebug[0m] [0m	/tmp/sbt_a6dbccc5/xsbt/ScaladocInterface.scala[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler a2b0e01, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 39a1d7a0, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/classes:/home/admin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/admin/programming/scala/SimpleParser/target/scala-2.10/classes[0m
-[0m[[31merror[0m] [0m/home/admin/programming/scala/SimpleParser/src/main/scala/com/twitter/sample/SimpleParser.scala:10: value findFirstMatch is not a member of scala.util.matching.Regex[0m
-[0m[[31merror[0m] [0m    tweetRegex.findFirstMatch(str) match {[0m
-[0m[[31merror[0m] [0m               ^[0m
-[0m[[31merror[0m] [0m/home/admin/programming/scala/SimpleParser/src/main/scala/com/twitter/sample/SimpleParser.scala:12: value start is not a member of Any[0m
-[0m[[31merror[0m] [0m        val id = str.substring(m.start(1), m.end(1)).toInt[0m
-[0m[[31merror[0m] [0m                                 ^[0m
-[0m[[31merror[0m] [0m/home/admin/programming/scala/SimpleParser/src/main/scala/com/twitter/sample/SimpleParser.scala:13: value start is not a member of Any[0m
-[0m[[31merror[0m] [0m        val text = str.substring(m.start(2), m.end(2))[0m
-[0m[[31merror[0m] [0m                                   ^[0m
-[0m[[31merror[0m] [0mthree errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+[0m[[0mdebug[0m] [0mScala compilation took 6.827871039 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/admin/programming/scala/SimpleParser/src/main/scala/com/twitter/sample/SimpleParser.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
