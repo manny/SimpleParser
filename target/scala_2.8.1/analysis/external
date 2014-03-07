@@ -1,4 +1,4 @@
 #External Dependencies
-#Thu Mar 06 20:37:49 EST 2014
+#Thu Mar 06 20:55:17 EST 2014
 /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar=src/main/scala/com/twitter/sample/SimpleParser.scala
 /home/admin/programming/scala/SimpleParser/project/boot/scala-2.8.1/lib/scala-library.jar=src/main/scala/com/twitter/sample/SimpleParser.scala
