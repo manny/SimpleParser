@@ -1,7 +1,0 @@
-#External Dependencies
-#Thu Mar 06 20:55:17 EST 2014
-/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar=src/test/scala/com/twitter/sample/SimpleParserSpec.scala
-/home/admin/programming/scala/SimpleParser/lib_managed/scala_2.8.1/test/specs_2.8.0-1.6.5.jar=src/test/scala/com/twitter/sample/SimpleParserSpec.scala
-/home/admin/programming/scala/SimpleParser/project/boot/scala-2.8.1/lib/scala-library.jar=src/test/scala/com/twitter/sample/SimpleParserSpec.scala
-/home/admin/programming/scala/SimpleParser/target/scala_2.8.1/classes/com/twitter/sample/SimpleParser.class=src/test/scala/com/twitter/sample/SimpleParserSpec.scala
-/home/admin/programming/scala/SimpleParser/target/scala_2.8.1/classes/com/twitter/sample/SimpleParsed.class=src/test/scala/com/twitter/sample/SimpleParserSpec.scala
