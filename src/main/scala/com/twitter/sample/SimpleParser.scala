@@ -4,7 +4,7 @@ case class SimpleParsed(id: Long, text: String)
 
 class SimpleParser {
 
-  val tweetRegex = "\"id\":(.*), \"text\":\"(.*)\"".r
+  val tweetRegex = "\"id\":(.*),\"text\":\"(.*)\"".r
 
   def parse(str: String) = {
     tweetRegex.findFirstMatchIn(str) match {
@@ -13,7 +13,7 @@ class SimpleParser {
         val text = str.substring(m.start(2), m.end(2))
         Some(SimpleParsed(id, text))
       }
-      case _ => Nono
+      case _ => None
     }
   }
 }
