@@ -1,6 +1,9 @@
 import sbt._
 
+
+
 class SampleProject(info: ProjectInfo) extends DefaultProject(info) {
+  lazy val print = task {log.info("a test action"); None}
   val jackson = "org.codehaus.jackson" % "jackson-core-asl" % "1.6.1"
   val specs = "org.scala-tools.testing" % "specs_2.8.0" % "1.6.5" % "test"
 }
