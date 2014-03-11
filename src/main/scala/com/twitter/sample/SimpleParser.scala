@@ -14,21 +14,21 @@ class SimpleParser {
     var nested = 0
     if (parser.nextToken() == START_OBJECT){
       var token = parser.nextToken()
-      var textOpt:Option[String] = None
-      var idOpt:Option[Long] = None
+      var textOpt:Option[String] = None //set up options for Some
+      var idOpt:Option[Long] = None     
 
       while(token !=null) {
         if (token == FIELD_NAME && nested == 0) {
           parser.getCurrentName() match {
             case "text" =>{
               parser.nextToken()
-              textOpt = Some(parser.getText())
+              textOpt = Some(parser.getText()) //set textOpt if not null
             }
             case "id" => {
               parser.nextToken()
               idOpt = Some(parser.getLongValue())
             }
-            case _ => //noop
+            case _ =>    //or else case
           }
         }else if (token == START_OBJECT) {
           nested +=1
