@@ -4,8 +4,10 @@ import org.codehaus.jackson._
 import org.codehaus.jackson.JsonToken._
 
 
-/* case class: plain and immutable data-holding objects that should 
- * depend on their contructor arguments*/
+/* case class: plain and immutable data-holding objects 
+ * that should depend on their contructor arguments. 
+ * Like a case to hold variables in!!!*/
+
 case class SimpleParsed(id: Long, text: String)
 
 class SimpleParser {
